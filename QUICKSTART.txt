@@ -1,0 +1,40 @@
+ClipVault 0.2.0 - Windows replay recorder
+
+INSTALL
+Intel/AMD Windows 10/11: ClipVault-0.2.0-Setup-x64.exe
+Windows 11 on ARM: ClipVault-0.2.0-Setup-arm64.exe
+Windows 10 on ARM is not supported by the x64 capture engine.
+Run setup, then open ClipVault from the desktop or Start menu.
+The installer is currently unsigned; Windows may show a publisher warning.
+No account, Node.js, or development tools are needed.
+
+FIRST LAUNCH
+Keep internet connected while ClipVault automatically sets up its recording
+engine (about 88 MiB). Setup progress appears in the window. If setup fails,
+check your connection and click Start buffer to retry. After setup, local
+recording works offline. Portable ZIP users must extract the whole ZIP first.
+
+RECORD
+1. In Recorder settings, choose Screen to record.
+2. Choose audio sources and save shortcuts. Click Apply settings while stopped.
+3. Click Start buffer before playing.
+4. Press Ctrl+Shift+F8 (default), your custom shortcut, or your selected Xbox
+   button when a moment happens. The Save button and tray menu work too.
+5. Open clips folder to find the MP4, then share that file however you prefer.
+
+The default is 30 seconds, 720p, 30 FPS. The Gaming preset reduces workload.
+Recording still uses PC resources; gameplay impact varies by hardware/game.
+Xbox Share support depends on controller, connection, firmware and Windows;
+physical Share-button and Fortnite performance verification remain pending.
+
+Closing the window keeps recording in the tray. Quit ClipVault exits fully.
+Unplugging/changing the selected monitor pauses recording; choose a screen
+and start again. System audio includes all PC sound, not just the chosen game.
+Clips default to Videos/ClipVault. Uninstall preserves clips and preferences.
+Desktop web login and one-click upload are not included in this release.
+
+THIRD-PARTY SOFTWARE
+See THIRD_PARTY_NOTICES.md in resources/app.asar and Electron's license files.
+FFmpeg downloads directly from GyanD's public release and is verified before
+execution. Its GPL license is kept beside the engine under
+%LOCALAPPDATA%/ClipVault/desktop/components/ffmpeg-7.1/.
