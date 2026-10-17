@@ -4,10 +4,10 @@ A focused Windows replay recorder. Choose a monitor, set a shortcut, start the r
 
 ## Download the preview
 
-- [Windows 10/11 x64 — Intel/AMD PCs](https://github.com/Lilmonkey318/clipvault/releases/download/v0.2.0/ClipVault-0.2.0-Setup-x64.exe)
-- [Windows 11 ARM64](https://github.com/Lilmonkey318/clipvault/releases/download/v0.2.0/ClipVault-0.2.0-Setup-arm64.exe)
+- [Windows 10/11 x64 — Intel/AMD PCs](https://github.com/Lilmonkey318/clipvault/releases/download/v0.3.0/ClipVault-0.3.0-Setup-x64.exe)
+- [Windows 11 ARM64](https://github.com/Lilmonkey318/clipvault/releases/download/v0.3.0/ClipVault-0.3.0-Setup-arm64.exe)
 - [Download website](https://lilmonkey318.github.io/clipvault/)
-- [Release notes and checksums](https://github.com/Lilmonkey318/clipvault/releases/tag/v0.2.0)
+- [Release notes and checksums](https://github.com/Lilmonkey318/clipvault/releases/tag/v0.3.0)
 
 Installers are unsigned, so Windows may show a publisher warning. First launch automatically downloads and verifies the recording engine (about 88 MiB); recording then works offline. Windows 10 ARM is unsupported.
 
@@ -17,7 +17,7 @@ Choose **Recorder settings → Screen to record → Apply settings**, then start
 
 This is an early local recorder, not a finished hosted sharing platform. Desktop web login/upload, built-in trimming, game detection, automatic game capture and crash recovery are not included. No footage is uploaded automatically. Save MP4s and share them manually.
 
-79 project tests pass. Engine provisioning, offline cache reuse, installer checks, monitor preference persistence and an installed Windows ARM64 exact 15-second H.264/AAC save/decode were exercised. Recording continued during saving. A fresh packaged synchronization test detected audio pulses but no visual pattern, so packaged A/V timing remains inconclusive. Physical Xbox Share, two-monitor and native x64 gaming checks remain pending. Fortnite FPS/frame times have not been benchmarked, including against Medal. Recording consumes CPU/GPU/disk; heavy load can stop it if audio falls behind.
+81 project tests pass. Version 0.3.0 adds independent 1440p and 120 FPS options, an 80 Mbps Quality preset, up to 120 Mbps, improved H.264 export quality and continuous audio timing. Real production FFmpeg arguments retained 357 distinct frames in a three-second 1440p/120 FPS capture/export, with no silent gaps across 280 interior 10 ms audio blocks despite deliberately jittered packet arrival. Engine provisioning, offline cache reuse, installer checks, monitor preference persistence and an installed Windows ARM64 exact 15-second H.264/AAC save/decode were exercised. Recording continued during saving. The updated controlled Windows screen/loopback check captured all 15 flashes and continuous audio within 70 ms at neutral adjustment. Device-specific timing still varies. Physical Xbox Share, two-monitor and native x64 gaming checks remain pending. Fortnite FPS/frame times have not been benchmarked, including against Medal. Recording consumes CPU/GPU/disk; heavy load can stop it if audio falls behind.
 
 The site’s Medal comparison is based on [Medal’s Windows guide](https://support.medal.tv/support/solutions/articles/48000959661-getting-started-with-medal-on-windows), checked October 2026. Monitor selection, local clips and keyboard shortcuts are shared capabilities. ClipVault’s positioning is its account-free, focused desktop recording workflow; no superior performance benchmark is claimed. Independent project, no Medal affiliation.
 
