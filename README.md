@@ -4,10 +4,10 @@ A focused Windows replay recorder. Choose a monitor, set a shortcut, start the r
 
 ## Download the preview
 
-- [Windows 10/11 x64 — Intel/AMD PCs](https://github.com/Lilmonkey318/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-x64.exe)
-- [Windows 11 ARM64](https://github.com/Lilmonkey318/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-arm64.exe)
-- [Download website](https://lilmonkey318.github.io/clipvault/)
-- [Release notes and checksums](https://github.com/Lilmonkey318/clipvault/releases/tag/v0.4.0)
+- [Windows 10/11 x64 — Intel/AMD PCs](https://github.com/JJDELITE06/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-x64.exe)
+- [Windows 11 ARM64](https://github.com/JJDELITE06/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-arm64.exe)
+- [Download website](https://jjdelite06.github.io/clipvault/)
+- [Release notes and checksums](https://github.com/JJDELITE06/clipvault/releases/tag/v0.4.0)
 
 Installers are unsigned, so Windows may show a publisher warning. First launch automatically downloads and verifies the recording engine (about 88 MiB); recording then works offline. Windows 10 ARM is unsupported.
 

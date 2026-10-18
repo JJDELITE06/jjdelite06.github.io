@@ -1,19 +1,19 @@
 {
   "version": "0.4.0",
   "preview": true,
-  "repository": "Lilmonkey318/clipvault",
+  "repository": "JJDELITE06/clipvault",
   "assets": {
     "x64": {
       "name": "ClipVault-0.4.0-Setup-x64.exe",
       "bytes": 162889008,
       "sha256": "302e0dac6aafb8ce5e56fccd846e917231338a7f6e27284254c3686cda801e8f",
-      "url": "https://github.com/Lilmonkey318/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-x64.exe"
+      "url": "https://github.com/JJDELITE06/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-x64.exe"
     },
     "arm64": {
       "name": "ClipVault-0.4.0-Setup-arm64.exe",
       "bytes": 159813250,
       "sha256": "f73132589f87a5f1bb775be66b7805c32a2ba69a2a4f87224b7debd275f94214",
-      "url": "https://github.com/Lilmonkey318/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-arm64.exe"
+      "url": "https://github.com/JJDELITE06/clipvault/releases/download/v0.4.0/ClipVault-0.4.0-Setup-arm64.exe"
     }
   }
 }
