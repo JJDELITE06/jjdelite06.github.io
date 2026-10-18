@@ -1,8 +1,8 @@
-ClipVault 0.3.1 - Windows replay recorder
+ClipVault 0.4.0 - Windows replay recorder
 
 INSTALL
-Intel/AMD Windows 10/11: ClipVault-0.3.1-Setup-x64.exe
-Windows 11 on ARM: ClipVault-0.3.1-Setup-arm64.exe
+Intel/AMD Windows 10/11: ClipVault-0.4.0-Setup-x64.exe
+Windows 11 on ARM: ClipVault-0.4.0-Setup-arm64.exe
 Windows 10 on ARM is not supported by the x64 capture engine.
 Run setup, then open ClipVault from the desktop or Start menu.
 The installer is currently unsigned; Windows may show a publisher warning.
@@ -38,7 +38,22 @@ Closing the window keeps recording in the tray. Quit ClipVault exits fully.
 Unplugging/changing the selected monitor pauses recording; choose a screen
 and start again. System audio includes all PC sound, not just the chosen game.
 Clips default to Videos/ClipVault. Uninstall preserves clips and preferences.
-Desktop web login and one-click upload are not included in this release.
+GOOGLE DRIVE (OPTIONAL)
+Local saving is the default and needs no account. In Your clips. Your storage.,
+click Connect Google Drive and finish sign-in in your system browser.
+Choose Keep local + upload manually or Keep local + upload new clips
+automatically, then Apply upload options. Automatic mode only queues future
+saves; choose older MP4s explicitly. Every upload keeps the local file.
+Uploads go directly to your private ClipVault folder in your own Google Drive.
+The separate upload limit defaults to 5 Mbps (adjustable 1-50 Mbps).
+Uploads pause while the recording buffer is active by default, to avoid
+competing for your internet connection while gaming. Stop the buffer to upload.
+Pause/resume, progress, retries and queue removal are available in the app.
+Disconnect clears the local connection/queue and attempts Google revocation;
+this may also disconnect ClipVault on your other PCs. It never deletes clips.
+Google storage limits apply. Local-only recording still works offline.
+Built-in trimming, ClipVault-web login/feed upload and game detection are not
+included in this release.
 
 THIRD-PARTY SOFTWARE
 See THIRD_PARTY_NOTICES.md in resources/app.asar and Electron's license files.
