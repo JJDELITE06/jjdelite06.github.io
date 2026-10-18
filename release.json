@@ -1,19 +1,19 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "preview": true,
   "repository": "Lilmonkey318/clipvault",
   "assets": {
     "x64": {
-      "name": "ClipVault-0.3.0-Setup-x64.exe",
-      "bytes": 162877010,
-      "sha256": "36f2a82d8017e9b01f3df4950e00ca48fb7e815de72f82351bdfaec82bd384f5",
-      "url": "https://github.com/Lilmonkey318/clipvault/releases/download/v0.3.0/ClipVault-0.3.0-Setup-x64.exe"
+      "name": "ClipVault-0.3.1-Setup-x64.exe",
+      "bytes": 162877494,
+      "sha256": "538b19e0a568620ff82b8f927fba78d5fd2d0a2e9369bef2923981fcac6ea2bd",
+      "url": "https://github.com/Lilmonkey318/clipvault/releases/download/v0.3.1/ClipVault-0.3.1-Setup-x64.exe"
     },
     "arm64": {
-      "name": "ClipVault-0.3.0-Setup-arm64.exe",
-      "bytes": 159801287,
-      "sha256": "30d662528a0f13e7c4549d12b1f01f64c17691f6de6e6ce67405cf4c6858fbe8",
-      "url": "https://github.com/Lilmonkey318/clipvault/releases/download/v0.3.0/ClipVault-0.3.0-Setup-arm64.exe"
+      "name": "ClipVault-0.3.1-Setup-arm64.exe",
+      "bytes": 159801770,
+      "sha256": "f6c4f869c98bc62647beec62b1a3f269f057ce6748073ba22d62ab001c80475e",
+      "url": "https://github.com/Lilmonkey318/clipvault/releases/download/v0.3.1/ClipVault-0.3.1-Setup-arm64.exe"
     }
   }
 }

@@ -1,8 +1,8 @@
-ClipVault 0.3.0 - Windows replay recorder
+ClipVault 0.3.1 - Windows replay recorder
 
 INSTALL
-Intel/AMD Windows 10/11: ClipVault-0.3.0-Setup-x64.exe
-Windows 11 on ARM: ClipVault-0.3.0-Setup-arm64.exe
+Intel/AMD Windows 10/11: ClipVault-0.3.1-Setup-x64.exe
+Windows 11 on ARM: ClipVault-0.3.1-Setup-arm64.exe
 Windows 10 on ARM is not supported by the x64 capture engine.
 Run setup, then open ClipVault from the desktop or Start menu.
 The installer is currently unsigned; Windows may show a publisher warning.
@@ -25,7 +25,7 @@ RECORD
 The default is 30 seconds, 720p, 30 FPS. The Gaming preset reduces workload.
 QUALITY: Choose 1440p and 120 FPS separately, or use the Quality preset
 (1440p / 120 FPS / 80 Mbps / Auto encoder). Apply settings while stopped.
-Resolution caps: 720p, 1080p, 1440p. FPS: 30, 60, 120. Bitrate: 2-120 Mbps.
+Resolution caps: 720p, 1080p, 1440p. FPS: 30, 60, 120. Bitrate: 25-120 Mbps.
 Smaller screens retain their aspect ratio and are not upscaled. 120 FPS
 requires sufficient source frames and PC/encoder headroom. Watch the actual
 capture FPS; reduce settings if the encoder falls behind. Audio now uses
